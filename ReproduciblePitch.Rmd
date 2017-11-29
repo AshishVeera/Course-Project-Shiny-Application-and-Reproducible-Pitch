@@ -8,7 +8,7 @@ output: ioslides_presentation
 
 ## Introduction
 This presentation contains documentation for the Diamond price prediction application. The application can be found through the below mentioned link 
-https://ashishveera.shinyapps.io/MyApp/
+https://ashishveera.shinyapps.io/Course-Project-Shiny-Application-and-Reproducible-Pitch/
 
 
 ## Fucntionality of the application
