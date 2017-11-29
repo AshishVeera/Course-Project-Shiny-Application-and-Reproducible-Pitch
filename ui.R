@@ -36,9 +36,12 @@ shinyUI(fluidPage(
         
         # Show a plot with diamonds and regression line
         mainPanel(
-            plotOutput("distPlot"),
-            h4("Predicted value of this diamond is:"),
-            h3(textOutput("result"))
+            tabsetPanel(type= "tabs",
+                        tabPanel("Plot", br(), plotOutput("distPlot")),
+                        tabPanel("Predicted Value", h4("Predicted Value of the diamond is:"), textOutput("result")),
+                        tabPanel("Help", h4("Please copy and paste the below link in your browser to understand more about the application http://rpubs.com/AshishVeera/335464"))
+                        )
+            
         )
     )
 ))

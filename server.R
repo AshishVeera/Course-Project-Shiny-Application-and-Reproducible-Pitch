@@ -41,6 +41,7 @@ shinyServer(function(input, output) {
                                                   clarity = input$clar))
         res <- paste(round(pred, digits = 2), "$")
         res
+    
     })
     
 })
