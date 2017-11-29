@@ -9,4 +9,4 @@ leveraging the diamonds dataset which comes with the ggplot2 package.
 The final result can be seen https://ashishveera.shinyapps.io/Course-Project-Shiny-Application-and-Reproducible-Pitch/
 
 The presentation explaining the application can be seen here:
-http://rpubs.com/AshishVeera/335464
+http://rpubs.com/AshishVeera/335490
