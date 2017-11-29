@@ -1,0 +1,48 @@
+---
+title: "Reproducible Pitch"
+author: "Ashish Veera"
+date: "11/29/2017"
+output: ioslides_presentation
+---
+
+
+## Introduction
+This presentation contains documentation for the Diamond price prediction application. The application can be found through the below mentioned link 
+https://ashishveera.shinyapps.io/MyApp/
+
+
+## Fucntionality of the application
+This application is building a linear regression model using `diamonds` data set and is predicting the price of a diamond depending on its properties.The application allows the user to select:
+- Carat 
+- Cut 
+- Color 
+- Clarity 
+
+Finally, builds a plot and gives predicted price of the diamond.
+
+## Data used
+
+The data used for this application is `diamonds` data set, which is part of `ggplot2` package.
+This data set contains the information about 53940 diamonds with 10 variables:
+```{r echo=FALSE}
+library(ggplot2)
+```
+
+```{r echo=FALSE}
+summary(diamonds)
+
+```
+
+## Shiny files
+
+The application is built using Shiny package and the source code is in 2 files:
+- `ui.R`
+- `server.R`
+
+These files can be found here:
+
+https://github.com/AshishVeera/Course-Project-Shiny-Application-and-Reproducible-Pitch/blob/master/ui.R
+
+https://github.com/AshishVeera/Course-Project-Shiny-Application-and-Reproducible-Pitch/blob/master/server.R
+
+
